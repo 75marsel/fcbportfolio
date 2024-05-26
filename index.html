@@ -20,6 +20,7 @@
 
     </head>
     <body>
+        <div id="content-main" >
         <ul class="nav justify-content-end fixed-top">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -33,7 +34,7 @@
             </ul>
         
         
-        <div class="container-fluid">
+        <div class="container-fluid" id="bg1">
             <section class="text-center mt-5" id="landing">
                 <h1>INTRO TEXT HERE</h1>
                 <p>CATCHY LINES HERE OK</p>
@@ -41,55 +42,61 @@
                 <a href="mailto:jericgappi@gmail.com"  class="btn btn-primary btn-lg mt-3">Useful ahh button</a>
             </section>
         </div>
-        
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="mx-auto d-grid gap-5 ">
 
-                <div class="col d-flex justify-content-center">
-                    <div class="card w-75">
-                        <a href="https://google.com" target="_blank"><img src="./images/selfie.png" class="card-img-top" alt="..."> </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 1</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
+        <div class="mx-auto d-grid w-50 p-3 bg2">
+
+            <div id="carouselExampleDark" class="carousel slide carousel-fade bg2" data-bs-ride="carousel" >
+                <section class="text-center mt-5 tpx" id="ttxt">
+                    <h1 class="tpx">My Journey</h1>
+                    <p class="tpx">Little stepping stones yet valuable experiences.</p>
+                </section>
+                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <a href="https://google.com" target="_blank"><img src="./images/img1.png" class="d-block w-100" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5 class="bg-gradient text-white">First slide label</h5>
+                    <p class="bg-gradient text-white">Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
 
-                <div class="col d-flex justify-content-center">
-                    <div class="card w-75">
-                        <img src="./images/selfie.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <a href="https://youtube.com" target="_blank"><img src="./images/img2.png" class="d-block w-100" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5 class="bg-info bg-gradient">Second slide label</h5>
+                    <p class="bg-gradient">Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
 
-                <div class="col d-flex justify-content-center">
-                    <div class="card w-75">
-                        <img src="./images/selfie.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <a href="https://wutheringwaves.kurogames.com/en/" target="_blank"><img src="./images/img3.png" class="d-block w-100" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5 class="bg-transparent text-white">Third slide label</h5>
+                    <p class="bg-transparent text-white">Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
 
-                <div class="col d-flex justify-content-center">
-                    <div class="card w-75">
-                        <img src="./images/selfie.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title N</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
                 </div>
-            
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
-          </div>
-       
+        </div>
+    </div>
         
-        <footer class="footer mt-auto py-3 bg-dark clearfix" id="sf">
+        <footer class="footer mt-auto py-3 bg-dark clearfix">
             <a href="https://www.linkedin.com/in/jericmarcel0321/">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
