@@ -117,3 +117,7 @@ footer {
 #navbar.scrolled .nav-link {
     color: white !important;
 }
+
+.section {
+    margin-bottom: 20px;
+}
