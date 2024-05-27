@@ -21,80 +21,121 @@
     </head>
     <body>
         <div id="content-main" >
-        <ul class="nav justify-content-end fixed-top">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="/create" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/1">About</a>
-            </li>
+            <ul class="nav justify-content-end fixed-top">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/create" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/1">About</a>
+                </li>
             </ul>
         
         
-        <div class="container-fluid" id="bg1">
-            <section class="text-center mt-5" id="landing">
-                <h1>INTRO TEXT HERE</h1>
-                <p>CATCHY LINES HERE OK</p>
-                <img src="./images/me.jpg" alt="" class="img-fluid" id="profile">
-                <a href="mailto:jericgappi@gmail.com"  class="btn btn-primary btn-lg mt-3">Useful ahh button</a>
-            </section>
-        </div>
-
-        <div class="mx-auto d-grid w-50 p-3 bg2">
-
-            <div id="carouselExampleDark" class="carousel slide carousel-fade bg2" data-bs-ride="carousel" >
-                <section class="text-center mt-5 tpx" id="ttxt">
-                    <h1 class="tpx">My Journey</h1>
-                    <p class="tpx">Little stepping stones yet valuable experiences.</p>
+            <div class="container-fluid" id="bg1">
+                <section class="text-center mt-5 header-text">
+                    <h1>INTRO TEXT HERE</h1>
+                    <p>CATCHY LINES HERE OK</p>
+                    <img src="./images/me.jpg" alt="" class="img-fluid" id="profile">
+                    <a href="mailto:jericgappi@gmail.com"  class="btn btn-primary btn-lg mt-3">Useful ahh button</a>
                 </section>
-                
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-
-                <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                    <a href="https://google.com" target="_blank"><img src="./images/img1.png" class="d-block w-100" alt="..."></a>
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5 class="bg-gradient text-white">First slide label</h5>
-                    <p class="bg-gradient text-white">Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item" data-bs-interval="5000">
-                    <a href="https://youtube.com" target="_blank"><img src="./images/img2.png" class="d-block w-100" alt="..."></a>
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5 class="bg-info bg-gradient">Second slide label</h5>
-                    <p class="bg-gradient">Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item" data-bs-interval="5000">
-                    <a href="https://wutheringwaves.kurogames.com/en/" target="_blank"><img src="./images/img3.png" class="d-block w-100" alt="..."></a>
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5 class="bg-transparent text-white">Third slide label</h5>
-                    <p class="bg-transparent text-white">Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
             </div>
+
+
+            <div class="d-grid mx-auto fix-carousel col-md-7" style="margin-bottom: 120px;">
+
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <section class="text-center mt-5 tpx" id="ttxt">
+                        <h1 class="tpx">My Journey</h1>
+                        <p class="tpx">Little stepping stones yet valuable experiences.</p>
+                    </section>
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner mx-auto">
+
+                      <div class="carousel-item active" data-bs-interval="5000">
+                            <a href="https://google.com" target="_blank"><img src="./images/img1.png" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-gradient text-white">First slide label</h5>
+                                <p class="bg-gradient text-white">Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <a href="https://youtube.com" target="_blank"><img src="./images/img2.png" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-info bg-gradient">Second slide label</h5>
+                                <p class="bg-gradient">Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <a href="https://wutheringwaves.kurogames.com/en/" target="_blank"><img src="./images/img3.png" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-transparent text-white">Third slide label</h5>
+                                <p class="bg-transparent text-white">Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+      
+                    
+                </div>
+            </div>
+            
+            <section class="text-center mt-5 tpx">
+                <h1 class="tpx">Notable Projects</h1>
+                <p class="tpx">Continous learning through experiences.</p>
+            </section>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="projects">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/img1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Interactive Smart Trashcan (Capstone Project)</h5>
+                            <p class="card-text">A Machine that can assist identifying the category of waste the user will be throwing using the machine's scanner. SMS functionality for workers. LCD Screen and LED Indicators for displaying capacity and status.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Arduino, Embedded Systems, Electronics and Sensors</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/img2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">File Sorter (Harvard's CS50P Final Project)</h5>
+                            <p class="card-text">With a single command, automate the file and folder sorting on a directory based on user preferences saved in a database.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Python, Pandas, MongoDB, SQLiteDict, Shutil</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/img3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">RMA Serial Search (Internship)</h5>
+                            <p class="card-text">A Python based application made using PyQt5 GUI Framework with Pandas to manage a 5 million rows x 9 cols of csv data of an RMA system to search transaction details and their warranty.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Python, PyQt5, Pandas, CSV, Software Development</small>
+                        </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-    </div>
         
         <footer class="footer mt-auto py-3 bg-dark clearfix">
             <a href="https://www.linkedin.com/in/jericmarcel0321/">
