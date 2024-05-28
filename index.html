@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sample | Web Dev Portfolio</title>
+        <title>Static Portoflio | Sample </title>
 
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -16,7 +16,7 @@
         500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
         <!-- External CSS -->
-        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="stylesheet" type="text/css" href="./static/style/index.css">
 
     </head>
     <body>
@@ -26,19 +26,19 @@
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/create" class="nav-link">Contact</a>
+                    <a href="./static/templates/contact.html" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/1">About</a>
+                    <a class="nav-link" href="./static/templates/about.html">About</a>
                 </li>
             </ul>
         
         
             <div class="container-fluid section" id="section1">
                 <section class="text-center mt-5 header-text">
-                    <h1>INTRO TEXT HERE</h1>
-                    <p>CATCHY LINES HERE OK</p>
-                    <img src="./images/me.jpg" alt="" class="img-fluid" id="profile">
+                    <h1>Hi I'm Jeric Marcel</h1>
+                    <p>A Computer Engineer who likes Python, Robotics and learning new things.</p>
+                    <img src="./static/images/me1.jpg" alt="" class="img-fluid" id="profile">
                 </section>
             </div>
 
@@ -56,33 +56,52 @@
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
 
                     <div class="carousel-inner mx-auto">
 
-                      <div class="carousel-item active" data-bs-interval="5000">
-                            <a href="https://google.com" target="_blank"><img src="./images/img1.png" class="d-block img-fluid fix-carousel" alt="..."></a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="bg-gradient text-white">First slide label</h5>
-                                <p class="bg-gradient text-white">Some representative placeholder content for the first slide.</p>
+                      <div class="carousel-item active" data-bs-interval="3000">
+                            <a href="https://google.com" target="_blank"><img src="./static/images/carousel/img1.jpg" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block qq">
+                                <h5>Blue Hacks 2020 Hackathon</h5>
+                                <p>First Hackathon attended</p>
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <a href="https://youtube.com" target="_blank"><img src="./images/img2.png" class="d-block img-fluid fix-carousel" alt="..."></a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="bg-info bg-gradient">Second slide label</h5>
-                                <p class="bg-gradient">Some representative placeholder content for the second slide.</p>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <a href="https://youtube.com" target="_blank"><img src="./static/images/carousel/img2.jpg" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block qq">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
                             </div>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <a href="https://wutheringwaves.kurogames.com/en/" target="_blank"><img src="./images/img3.png" class="d-block img-fluid fix-carousel" alt="..."></a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="bg-transparent text-white">Third slide label</h5>
-                                <p class="bg-transparent text-white">Some representative placeholder content for the third slide.</p>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <a href="https://wutheringwaves.kurogames.com/en/" target="_blank"><img src="./static/images/carousel/img3.jpg" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block qq">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
                             </div>
                         </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <a href="https://wutheringwaves.kurogames.com/en/" target="_blank"><img src="./static/images/carousel/img4.jpg" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block qq">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <a href="https://wutheringwaves.kurogames.com/en/" target="_blank"><img src="./static/images/carousel/img5.jpg" class="d-block img-fluid fix-carousel" alt="..."></a>
+                            <div class="carousel-caption d-none d-md-block qq">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -92,53 +111,53 @@
                 <p class="tpx">Continous learning through experiences.</p>
             </section>
 
-            <div class="row row-cols-1 row-cols-md-2 g-1" id="projects">
+            <div class="row row-cols-1 row-cols-md-2 g-3" id="projects">
 
                 <div class="col">
                     <div class="card mx-auto justify-content-center">
-                        <img src="./images/img1.png" class="card-img-top" alt="...">
+                        <img src="./static/images/img1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Interactive Smart Trashcan (Capstone Project)</h5>
                             <p class="card-text">A Machine that can assist identifying the category of waste the user will be throwing using the machine's scanner. SMS functionality for workers. LCD Screen and LED Indicators for displaying capacity and status.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Arduino, Embedded Systems, Electronics and Sensors</small>
+                            <small class="text-muted">Arduino, Github, Embedded Systems, Electronics and Sensors, Python, PyQt5, CSS</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col">
                     <div class="card mx-auto justify-content-center">
-                        <img src="./images/img2.png" class="card-img-top" alt="...">
+                        <img src="./static/images/img2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">File Sorter (Harvard's CS50P Final Project)</h5>
                             <p class="card-text">With a single command, automate the file and folder sorting on a directory based on user preferences saved in a database saved locally and integrated with MongoDB for saving the settings on cloud.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Python, Pandas, MongoDB, SQLiteDict, Shutil</small>
+                            <small class="text-muted">Python, Pandas, MongoDB, SQLiteDict, Shutil, Github, Regular Expressions</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col">
                     <div class="card mx-auto justify-content-center">
-                        <img src="./images/img3.png" class="card-img-top" alt="...">
+                        <img src="./static/images/img3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">RMA Serial Search (Internship)</h5>
                             <p class="card-text">A Python based application made using PyQt5 GUI Framework with Pandas to manage a 5 million rows x 9 cols of csv data of an RMA system to search transaction details and their warranty.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Python, PyQt5, Pandas, CSV, Software Development</small>
+                            <small class="text-muted">Python, PyQt5, CSS, Pandas, CSV, Software Development</small>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col">
                     <div class="card mx-auto">
-                        <img src="./images/img4.png" class="card-img-top" alt="...">
+                        <img src="./static/images/img4.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Web-based Chatroom App</h5>
-                            <p class="card-text">A Basic Chatroom that supports sessions and multiple chatrooms with username included.  Developed made using Python and Flask framework. Hosted free at Python Anywhere. <a href="https://mayakashi.pythonanywhere.com/" target="_blank">Click Here to redirect (Slow due to free-hosting).</a></p>
+                            <p class="card-text">A Basic Chatroom that supports sessions and multiple chatrooms with username included. Developed made using Python and Flask framework. Hosted free at Python Anywhere. <a href="https://mayakashi.pythonanywhere.com/" target="_blank">Click Here to redirect (Slow due to free-hosting).</a></p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Python, Flask, HTML, CSS, ReactJS</small>
@@ -146,7 +165,7 @@
                     </div>
                 </div>
                 <section class="text-center mt-5 tpx">
-                    <a href="mailto:jericgappi@gmail.com"  class="btn btn-primary btn-lg mt-3 justify-content-center">MORE PROJECTS</a>
+                    <a href="https://github.com/75marsel" target="_blank" class="btn btn-primary btn-lg mt-3 justify-content-center">MORE PROJECTS</a>
                 </section>
             </div> 
             
@@ -154,35 +173,29 @@
         </div>
         
         <footer class="footer mt-auto py-3 bg-dark clearfix">
-            <a href="https://www.linkedin.com/in/jericmarcel0321/">
+            <a href="https://www.linkedin.com/in/jericmarcel0321/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
 
-            <a href="https://www.facebook.com/aerlsm/">
+            <a href="https://www.facebook.com/aerlsm/" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
             </a>
 
-            <a href="https://github.com/75marsel">
+            <a href="https://github.com/75marsel" target="_blank">
                 <i class="fa-brands fa-github"></i>
             </a>
 
-            <a href="https://twitter.com/qz_mayakashi">
+            <a href="https://twitter.com/qz_mayakashi" target="_blank">
                 <i class="fa-brands fa-twitter"></i>
             </a>
 
-            <a href="https://www.instagram.com/__.marsel21/?hl=en">
+            <a href="https://www.instagram.com/__.marsel21/?hl=en" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
             </a>
 
         </footer>
 
-        <!-- FontAwesome -->
-        <script src="https://kit.fontawesome.com/0b3f1a6994.js" crossorigin="anonymous"></script>
-
-        <!-- Bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-        crossorigin="anonymous"></script>
+        <script src="./static/scripts/scripts.js"></script>
 
         <script>
             window.addEventListener('scroll', function() {
