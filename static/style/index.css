@@ -138,7 +138,7 @@ footer {
 .qq {
     /* From https://css.glass */
     top: 73%;
-    height: 70px;
+    height: 50px;
     background: rgba(255, 255, 255, 0.39);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
